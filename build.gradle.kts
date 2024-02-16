@@ -24,6 +24,8 @@ repositories {
 dependencies {
     implementation("org.springframework:spring-webmvc:${properties["springVersion"]}")
     implementation("org.apache.tomcat.embed:tomcat-embed-jasper:9.0.85")
+
+    implementation("org.json:json:20240205")
 }
 
 tasks.withType<ShadowJar> {
